@@ -1,0 +1,116 @@
+:root {
+  --sage-ink: #17343d;
+  --sage-teal: #0b5f75;
+  --sage-teal-strong: #074a5c;
+  --sage-cyan: #27a8b8;
+  --sage-surface: #f4f8f8;
+  --sage-border: #c9dbdf;
+}
+
+[data-md-color-scheme="sage50bi-light"] {
+  --md-primary-fg-color: var(--sage-teal);
+  --md-primary-fg-color--dark: var(--sage-teal-strong);
+  --md-accent-fg-color: #087f8c;
+  --md-default-fg-color: var(--sage-ink);
+  --md-default-bg-color: #fff;
+  --md-code-bg-color: #edf4f5;
+  --md-typeset-a-color: #086a7d;
+}
+
+.md-grid {
+  max-width: 82rem;
+}
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.68;
+}
+
+.md-typeset > :is(p, ul, ol, .admonition, details) {
+  max-width: 72ch;
+}
+
+.md-typeset h1 {
+  color: var(--md-default-fg-color);
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  margin-bottom: 0.8em;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid var(--sage-border);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  padding-bottom: 0.35rem;
+}
+
+.md-typeset h3 {
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--sage-border);
+  border-radius: 0.6rem;
+  box-shadow: none;
+  display: table;
+  overflow: hidden;
+  width: 100%;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--sage-surface);
+  color: var(--sage-ink);
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 1px;
+  box-shadow: none;
+}
+
+.md-typeset :focus-visible,
+.md-search__input:focus-visible,
+.md-header__button:focus-visible,
+.md-nav__link:focus-visible {
+  outline: 3px solid var(--sage-cyan);
+  outline-offset: 3px;
+}
+
+.md-typeset img {
+  border: 1px solid var(--sage-border);
+  border-radius: 0.5rem;
+  height: auto;
+}
+
+.quick-path {
+  background: var(--sage-surface);
+  border: 1px solid var(--sage-border);
+  border-radius: 0.75rem;
+  margin: 1.5rem 0 2rem;
+  max-width: 72ch;
+  padding: 1rem 1.2rem;
+}
+
+[data-md-color-scheme="slate"] {
+  --sage-ink: #f2f7f8;
+  --sage-border: #3c5962;
+  --sage-surface: #19333b;
+}
+
+@media (max-width: 44.984375em) {
+  .md-typeset {
+    font-size: 0.84rem;
+  }
+
+  .md-typeset table:not([class]) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

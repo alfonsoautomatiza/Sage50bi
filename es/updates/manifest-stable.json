@@ -3,16 +3,16 @@
   "channel": "stable",
   "latest": "0.1.0",
   "key_id": "global-2026-01",
-  "generated_at": "2026-08-10T12:35:38.220803+00:00",
+  "generated_at": "2026-08-17T11:44:38.255523+00:00",
   "releases": [
     {
       "version": "0.1.0",
       "type": "full",
       "target": "win-x64",
-      "url": "https://github.com/wertyMSD/sage50bi/releases/download/v0.1.0/sage50bi.zip",
-      "sha256": "1998bfa685c7057dce0cd708bdab5a3f7cdd921f5a9ddaf3d45ed8f254dd144d",
-      "size": 195308127
+      "url": "https://github.com/alfonsoautomatiza/Sage50bi/releases/download/v0.1.0/sage50bi-0.1.0-win-x64-stable.zip",
+      "sha256": "45e99fd3c8f8665452e19c36d2156f2e5046c524ec3ea7501dc9811bb98c9f53",
+      "size": 195305754
     }
   ],
-  "signature": "45FUFqJgJNn30nJ4BvC+RXHoL/65gzd3QQojN+mymyOkXcWnjL0FsibYqYfz9ypAWEFWzRoCl2ewpgoEhonGBQ=="
+  "signature": "rksqr8tmCNGPMm6lAKuYIeoFIDIspVVpKICxZ9YFNHhdr/SeiGQqyU92jXkF5/hEcrF7DcFfzkHmvXjkbDbQBg=="
 }
